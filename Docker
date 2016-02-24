@@ -1,7 +1,7 @@
 FROM phusion/baseimage:latest
-+
-+CMD ["/sbin/my_init"]
-+
+
+CMD ["/sbin/my_init"]
+
 RUN apt-get update && apt-get install -y apache2 php5
 Dockerfile to install PHPunit 
 
